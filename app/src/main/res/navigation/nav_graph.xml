@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_attractions">
+
+    <fragment
+        android:id="@id/nav_attractions"
+        android:name="com.example.android.cairoguide.fragments.AttractionsFragment"
+        android:label="@string/menu_attractions"
+        tools:layout="@layout/fragment_attractions" />
+
+    <fragment
+        android:id="@id/nav_restaurants"
+        android:name="com.example.android.cairoguide.fragments.RestaurantsFragment"
+        android:label="@string/menu_restaurants"
+        tools:layout="@layout/fragment_restaurants" />
+
+    <fragment
+        android:id="@id/nav_events"
+        android:name="com.example.android.cairoguide.fragments.EventsFragment"
+        android:label="@string/menu_events"
+        tools:layout="@layout/fragment_events" />
+
+    <fragment
+        android:id="@id/nav_hotels"
+        android:name="com.example.android.cairoguide.fragments.HotelsFragment"
+        android:label="@string/menu_hotels"
+        tools:layout="@layout/fragment_hotels" />
+
+</navigation>

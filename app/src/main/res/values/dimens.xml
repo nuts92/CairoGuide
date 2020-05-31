@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- A List of Dimensions that will be used across the Cairo Guide App-->
+    <dimen name="nav_header_height">185dp</dimen>
+    <dimen name="layout_margin_small">8dp</dimen>
+    <dimen name="layout_margin_medium">16dp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="image_card_view_width">100dp</dimen>
+    <dimen name="image_card_view_height">180dp</dimen>
+    <dimen name="line_spacing">4dp</dimen>
+    <dimen name="text_size_very_small">14sp</dimen>
+
+</resources>

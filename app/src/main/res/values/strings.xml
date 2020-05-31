@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Cairo Guide</string>
+
+    <!-- A list of Strings for the Navigation Drawer Menu Items -->
+    <string name="menu_attractions">Sights</string>
+    <string name="menu_restaurants">Restaurants</string>
+    <string name="menu_events">Events</string>
+    <string name="menu_hotels">Hotels</string>
+
+    <!-- A list of Strings for the Navigation Header-->
+    <string name="nav_header_title">Cairo Guide</string>
+    <string name="nav_header_slogan">A New Sky, A New Trip!</string>
+
+    <!-- A list of Strings for the AttractionsFragment Screen -->
+    <string name="first_attraction_title">The Pyramids of Giza</string>
+    <string name="first_attraction_description">The last surviving of the Seven Wonders of the Ancient World, the Pyramids of Giza are one of the world\'s most recognizable landmarks.</string>
+    <string name="first_attraction_location">Location: Al-Ahram Street, Giza</string>
+    <string name="second_attraction_title">The Egyptian Museum</string>
+    <string name="second_attraction_description">The absolutely staggering collection of antiquities displayed in Cairo\'s Egyptian Museum makes it one of the world\'s great museums. You would need a lifetime to see everything on show.</string>
+    <string name="second_attraction_location">Location: Midan al-Tahrir, Downtown</string>
+    <string name="third_attraction_title">Al-Azhar Mosque</string>
+    <string name="third_attraction_description">Al-Azhar Mosque is the finest building of Cairo\'s Fatimid era and one of the city\'s earliest surviving mosques, completed in AD 972. It\'s also one of the world\'s oldest universities and today, it is still the leading theological center of the Islamic world.</string>
+    <string name="third_attraction_location">Location: Al-Azhar Street, Islamic Cairo District</string>
+    <string name="fourth_attraction_title">Sultan Hassan Mosque</string>
+    <string name="fourth_attraction_description">One of the finest examples of Mamluk architecture in the world, Sultan Hassan Mosque is a vision of Arabic artistry with an abundance of stalactite detailing and intricate arabesque features. It was built in 1356/63 for the Sultan Hassan el-Nasir.</string>
+    <string name="fourth_attraction_location">Location: Midan Salah-ad-Din, Islamic Cairo District</string>
+    <string name="fifth_attraction_title">Khan el-Khalili (Souq Quarter)</string>
+    <string name="fifth_attraction_description">Khan el-Khalili is one of the world\'s great shopping experiences. This Middle Eastern souq (bazaar) is a labyrinthine collection of skinny alleyways established as a shopping district in AD 1400, which still rings with the clang of metal workers and silversmiths.</string>
+    <string name="fifth_attraction_location">Location: Off Al-Azhar Street, Islamic Cairo District</string>
+    <string name="sixth_attraction_title">The Citadel</string>
+    <string name="sixth_attraction_description">In a commanding location at the foot of the Mokattam Hills, Cairo\'s citadel was built by Saladin in 1176. The original structure he laid out has long disappeared except for the eastern outer walls, but a legacy of rulers has made their own additions here.</string>
+    <string name="sixth_attraction_location">Location: Off Midan Salah-ad-Din, Islamic Cairo District</string>
+
+    <!-- A list of Strings for the HotelsFragment Screen -->
+    <string name="first_hotel_title">Fairmont Nile City Hotel, Cairo</string>
+    <string name="first_hotel_description">Like the city itself, Fairmont Nile City offers a delightful series of contrasts, combining advanced technology and modern design with local flavors and flair.</string>
+    <string name="first_hotel_location">Location: Nile City Towers 2005 B Corniche، El Nil، Cairo</string>
+    <string name="second_hotel_title">Four Seasons Hotel Cairo at Nile Plaza</string>
+    <string name="second_hotel_description">Four Seasons Hotel Cairo at Nile Plaza offers luxury accommodations, fine dining, city views and more in the heart of Cairo\'s social and business scenes.</string>
+    <string name="second_hotel_location">Location: 1089 CORNICHE EL NIL, Qasr El Nil, Cairo</string>
+    <string name="third_hotel_title">The Nile Ritz-Carlton, Cairo</string>
+    <string name="third_hotel_description">The Nile Ritz-Carlton, Cairo, located downtown, overlooks the Egyptian Museum and offers luxury weddings, catering, a spa and nine restaurants.</string>
+    <string name="third_hotel_location">Location: 1113 Corniche El Nil, Ismailia, Qasr El Nil, Cairo</string>
+    <string name="fourth_hotel_title">Kempinski Nile Hotel Cairo</string>
+    <string name="fourth_hotel_description">Located in Cairo\'s affluent Garden City district, Kempinski Nile Hotel offers luxurious rooms on the shores of the Nile River.</string>
+    <string name="fourth_hotel_location">Location: 12 Ahmed Ragheb, Qasr El Nil, Cairo</string>
+    <string name="fifth_hotel_title">Royal Maxim Palace Kempinski Cairo</string>
+    <string name="fifth_hotel_description">Royal Maxim Palace Kempinski Cairo is a 5-star hotel that offers luxury accommodations and is a haven of tranquillity in the heart of New Cairo.</string>
+    <string name="fifth_hotel_location">Location: Ring Rd, Second New Cairo, Cairo</string>
+    <string name="sixth_hotel_title">Heliopolis Towers Hotel</string>
+    <string name="sixth_hotel_description">The Heliopolis Towers Hotel is set in the presidential quarter near Cairo International Airport, the business district and the Cairo International Convention Centre.</string>
+    <string name="sixth_hotel_location">Location:El Shaheed Sayed Zakaria, Sheraton Al Matar, El Nozha, Cairo</string>
+
+    <!-- A list of Strings for the EventsFragment Screen -->
+    <string name="first_event_title">ICEC (Intelligent Cities Exhibition And Conference) 2020</string>
+    <string name="first_event_description">The 6th annual ICEC is the region\'s leading smart and sustainable cities event to be held late October 2020 in Cairo, Egypt.</string>
+    <string name="first_event_date">Date: Tue, Oct 27, 2020, 9:00 AM EET</string>
+    <string name="second_event_title">Cairo Technology Week 2020</string>
+    <string name="second_event_description">Cairo Technology Week is the most exclusive technology event which brings together global vendors, technology providers, systems integrators and the most influential ICT decision makers from various sectors .</string>
+    <string name="second_event_date">Date: Tue, Oct 27, 2020, 9:00 AM –Wed, Oct 28, 2020, 11:00 PM EET </string>
+    <string name="third_event_title">Egypt National Cybersecurity CTF 2020</string>
+    <string name="third_event_description">In cooperation with Trend Micro, as a strategic partner, CyberTalents is organizing Egypt National Cybersecurity CTF for the fourth time consecutively where participants can demonstrate their technical abilities so we can discover the best cybersecurity talents in Egypt.</string>
+    <string name="third_event_date">Date: Sat, October 3, 2020 10:00 AM – 4:00 PM EET</string>
+    <string name="fourth_event_title">Cairo: Not Sure When, But Then! with Matt Davis</string>
+    <string name="fourth_event_description">Join us for an internationally-minded hour of hilarious, challenging comedy with Matt Davis!</string>
+    <string name="fourth_event_date">Date: Tue, January 19, 2021 8:00 PM – 11:00 PM EET</string>
+    <string name="fifth_event_title">EGYMEDICA and EGYLAB MEDICINE</string>
+    <string name="fifth_event_description">The Main gate for all medical sectors in Egypt and all Africa Egymedica is the biggest and oldest exhibition and confrence in Egypt and all Africa, that has the biggest number of visitors and the biggest deals in medical field.</string>
+    <string name="fifth_event_date">Date: Thu, Apr 1, 2021, 10:00 AM EET</string>
+    <string name="sixth_event_title">Build a startup community in your city</string>
+    <string name="sixth_event_description">Would you like to start a startup community but have no resources of your own? Waxdale Pitch Studios is looking for Ecosystem Leaders to operate startup communities in exchange for equity.</string>
+    <string name="sixth_event_date">Date: Thu, May 20, 2021, 01:00 PM EET</string>
+
+    <!-- A list of Strings for the RestaurantsFragment Screen -->
+    <string name="first_restaurant_title">Al Khal Egyptian Restaurant</string>
+    <string name="first_restaurant_description">Al Khal offers the finest traditional Egyptian dishes and delights in a classic atmosphere with a modern twist.</string>
+    <string name="first_restaurant_hours">Opening Hours: All Week from 01:00PM to 01:00AM</string>
+    <string name="first_restaurant_location">Location: Citystars Heliopolis</string>
+    <string name="second_restaurant_title">Culina</string>
+    <string name="second_restaurant_description">The open kitchen at Culina offers both temptation and entertainment. Chefs at the all-day dining restaurant prepare an array of international and local dishes, offering buffet-style for breakfast and lunch, while a la carte for dinner.</string>
+    <string name="second_restaurant_hours">Opening Hours: All Week from 06:30AM to 11:00PM</string>
+    <string name="second_restaurant_location">Location: 1113 Corniche El Nil, DownTown, Cairo</string>
+    <string name="third_restaurant_title">Koshary Abou Tarek</string>
+    <string name="third_restaurant_description">Few Cairo baladi eateries rise to international acclaim. Abou Tarek is probably the only restaurant in Cairo that has been featured on CNN, where customers can have a meal for 5LE.</string>
+    <string name="third_restaurant_hours">Opening Hours: All Week from 06:00AM to 11:00PM</string>
+    <string name="third_restaurant_location">Location: Choppin In Champollion Area, Cairo</string>
+    <string name="fourth_restaurant_title">Fayruz Lebanese Restaurant</string>
+    <string name="fourth_restaurant_description">Guests familiar with the flavors and spices of Lebanese cuisine will find them blended to perfection at Fayruz.</string>
+    <string name="fourth_restaurant_hours">Opening Hours: All Week from 01:00PM to 01:00AM</string>
+    <string name="fourth_restaurant_location">Location: Omar Ibn El-Khattab Street, Nasr City, Cairo</string>
+    <string name="fifth_restaurant_title">Esplanade Cafe Restaurant</string>
+    <string name="fifth_restaurant_description">From tasty snacks to à la carte meals to full buffet dinners with live cooking by top chefs, the Esplanade offers 24-hour variety without compromising on quality.</string>
+    <string name="fifth_restaurant_hours">Opening Hours: All Week 24 Hours</string>
+    <string name="fifth_restaurant_location">Location: Omar Ibn El-Khattab Street, Nasr City, Cairo</string>
+    <string name="sixth_restaurant_title">Bab Al Qasr</string>
+    <string name="sixth_restaurant_description">The finest of oriental cuisines in Cairo infused with Egyptian and Levant flavours and a subtle combination of spices.</string>
+    <string name="sixth_restaurant_hours">Opening Hours: All Week from 07:00PM to 00:00AM</string>
+    <string name="sixth_restaurant_location">Location: Second New Cairo, Royal Maxim, Cairo</string>
+
+</resources>

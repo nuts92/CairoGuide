@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/layout_margin_medium"
+    app:cardCornerRadius="@dimen/card_corner_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_margin_medium">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/list_item_image_card"
+            android:layout_width="@dimen/image_card_view_width"
+            android:layout_height="@dimen/image_card_view_height"
+            android:layout_marginStart="@dimen/layout_margin_medium"
+            android:layout_marginLeft="@dimen/layout_margin_medium"
+            android:layout_marginTop="@dimen/layout_margin_medium"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/list_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/first_attraction_pyramids" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/list_item_title"
+            style="@style/list_item_text_style"
+            android:layout_marginTop="@dimen/layout_margin_medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/list_item_image_card"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/first_attraction_title" />
+
+        <TextView
+            android:id="@+id/list_item_description"
+            style="@style/list_item_text_style"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/list_item_image_card"
+            app:layout_constraintTop_toBottomOf="@+id/rating_bar"
+            tools:text="@string/first_attraction_description" />
+
+        <TextView
+            android:id="@+id/location_and_time_description"
+            style="@style/list_item_text_style"
+            android:lineSpacingExtra="@dimen/line_spacing"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_very_small"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.301"
+            app:layout_constraintStart_toEndOf="@+id/list_item_image_card"
+            app:layout_constraintTop_toBottomOf="@+id/list_item_description"
+            tools:text="@string/first_attraction_location" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/layout_margin_small"
+            android:layout_marginLeft="@dimen/layout_margin_small"
+            android:layout_marginTop="@dimen/layout_margin_small"
+            android:layout_marginEnd="@dimen/layout_margin_medium"
+            android:layout_marginRight="@dimen/layout_margin_medium"
+            android:isIndicator="true"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/list_item_image_card"
+            app:layout_constraintTop_toBottomOf="@+id/list_item_title" />
+
+        <TextView
+            android:id="@+id/opening_hours"
+            style="@style/list_item_text_style"
+            android:lineSpacingExtra="@dimen/line_spacing"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_very_small"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/list_item_image_card"
+            app:layout_constraintTop_toBottomOf="@+id/location_and_time_description"
+            tools:text="@string/first_restaurant_hours" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

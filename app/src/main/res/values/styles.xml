@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- No Action Bar and Full Screen / No Status Bar Theme -->
+    <style name="FullScreenTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- No Action Bar Theme -->
+    <style name="NoActionBarTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- A Style for the Texts in the Navigation Header -->
+    <style name="nav_header_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/layout_margin_medium</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- A Style for the Recycler View in the Four Sections' Fragments-->
+    <style name="recycler_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/layout_margin_medium</item>
+    </style>
+
+    <!-- A Style for the Texts in the List Item-->
+    <style name="list_item_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/layout_margin_small</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_small</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_small</item>
+        <item name="android:layout_marginEnd">@dimen/layout_margin_medium</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_medium</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>

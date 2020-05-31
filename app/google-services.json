@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "876270112823",
+    "firebase_url": "https://cairo-guide.firebaseio.com",
+    "project_id": "cairo-guide",
+    "storage_bucket": "cairo-guide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876270112823:android:cabed335f141f3d07d2fb2",
+        "android_client_info": {
+          "package_name": "com.example.android.cairoguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876270112823-mb09dhh145mfk2ehpdbns1mau2o00b0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMpETcWqOVyOvHX0N563u1ARTvIFKZnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876270112823-mb09dhh145mfk2ehpdbns1mau2o00b0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
